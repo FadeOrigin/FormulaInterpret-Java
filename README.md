@@ -1,12 +1,16 @@
 # FormulaInterpret-Java
-Interpret a plain text formula, parse variables, then get result.
+Interpret a plain text formula, pass variables, then get result.
+So you can store formula in database or file, and pass variables during runtime.
 
-four operator supported:
-1:+
-2:-
-3:*
-4:/
-parentheses are supported
+Available operators:+ - * /
+Parentheses are also available.
+
+Run efficiency:
+Use a four variables and two constants formula to test, run on I7 6600U.
+Construct costs 6.6s for one million times.
+Pass Variables and get float result costs 3.4s for one million times.
+
+.net/.net Core version will come out later.
 
 Sample Code:
 
