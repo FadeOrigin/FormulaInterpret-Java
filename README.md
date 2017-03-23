@@ -5,7 +5,7 @@ So you can store formula in database or file, and pass variables during runtime.
 Available operators:+ - * /
 
 Parentheses are also available.
-Blank is forbidden.
+All blank(if exists) will be ignored.
 
 Run efficiency:
 Use a four variables and two constants formula to test, run on I7 6600U.
