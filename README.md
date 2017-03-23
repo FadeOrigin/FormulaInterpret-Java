@@ -5,6 +5,7 @@ So you can store formula in database or file, and pass variables during runtime.
 Available operators:+ - * /
 
 Parentheses are also available.
+
 All blank(if exists) will be ignored.
 
 Run efficiency:
