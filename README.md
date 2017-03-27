@@ -1,9 +1,9 @@
 # FormulaInterpret-Java  
-Interpret a plain text formula, pass variables, then get result.  
-So you can store formula in database or file, and pass variables during runtime.  
+**Interpret a plain text formula, pass variables, then get result.  
+So you can store formula in database or file, and pass variables during runtime.**  
 
 **Rules:**  
-Available operators:+ - * /  
+Available operators:+ - \* /  
 Parentheses are also available.  
 All blank(if exists) will be ignored.  
 
