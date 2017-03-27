@@ -14,7 +14,7 @@ Pass Variables and get float result costs 3.4s for one million times.
 .net/.net Core version will come out later.  
 
 **Sample Code:**  
-Formula formula=new Formula("Var1+Var2\*5"); //instantialize a formula object  
+Formula formula=new Formula("Var1+(Var2+1)\*5"); //instantialize a formula object  
 HashMap<String,String> variableCollection=new HashMap<String,String>(); //create a variable name-value Map  
 variableCollection.put("Var1","10");  
 variableCollection.put("Var2","20");  
