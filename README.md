@@ -8,14 +8,14 @@ Parentheses are also available.
 
 All blank(if exists) will be ignored.
 
-Run efficiency:
+**Run efficiency:**
 Use a four variables and two constants formula to test, run on I7 6600U.
 Construct costs 6.6s for one million times.
 Pass Variables and get float result costs 3.4s for one million times.
 
 .net/.net Core version will come out later.
 
-Sample Code:
+**Sample Code:**
 
 Formula formula=new Formula("Var1+Var2\*5"); //instantialize a formula object
 
