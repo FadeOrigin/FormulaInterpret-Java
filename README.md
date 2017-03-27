@@ -21,5 +21,5 @@ variableCollection.put("Var2","20");
 Float resultFloat=formula.resultAsFloat(variableCollection);  //get float result  
 Integer resultInteger=formula.resultAsInteger(variableCollection);  //get integer result  
 
-**Other version**
+**Other version**  
 .Net Core:https://github.com/FadeOrigin/FormulaInterpret-.NetCore
